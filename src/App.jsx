@@ -1,15 +1,13 @@
 import React from 'react'
-import UserNavBar from './components/navbar'
+import UserNavBar from './components/UserNavBar'
 import Footer from './components/Footer'
+import Home from './pages/Home'
 
 export default function App() {
   return (
     <>
       <UserNavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<Home />} />
-      </Routes>
+      <Home />
       <Footer />
     </>
   )

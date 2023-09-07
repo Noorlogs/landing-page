@@ -46,7 +46,7 @@
 .contact-form button {
     padding: 10px 20px;
     border: none;
-    background-color: #ffbb66;
+    background-color: #9b8bb2;
     color: #20232a;
     font-weight: bold;
     border-radius: 5px;
@@ -55,7 +55,8 @@
 }
 
 .contact-form button:hover {
-    background-color: #ff9966;
+    background-color: #5f286d;
+    color: #ffff;
 }
 
 /* Animation */

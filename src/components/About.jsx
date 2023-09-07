@@ -9,15 +9,16 @@ export default function About() {
             <div className="about-section">
                 <div className="about-content">
                     <div className="about-column">
-                        <h2 className="about-heading">About</h2>
+                        <h2 className="about-heading display-4">Discover the Pokémon Legacy</h2>
                         <p className="about-text">
-                            Welcome to the captivating world of Pokémon! Explore a diverse collection
-                            of creatures, battle fierce opponents, and embark on thrilling adventures.
-                            Join us on this epic journey to become a Pokémon Master!
+                            Our journey began with a vision to bring the enchanting world of Pokémon to fans worldwide.
+                            Established with a passion for these incredible creatures, our mission is to celebrate the magic, lore,
+                            and thrill of Pokémon. We're dedicated to providing trainers of all ages with the latest news,
+                            in-depth information, and a community where Pokémon enthusiasts can connect and share their experiences.
                         </p>
                         <div className="about-buttons">
-                            <button className="about-button">Learn More</button>
-                            <button className="about-button">Get Started</button>
+                            <button className="about-button btn-1">Learn More</button>
+                            <button className="about-button btn-2">Get Started</button>
                         </div>
                     </div>
                     <div className="about-column card-container">

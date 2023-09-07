@@ -1,0 +1,26 @@
+.custom-navbar {
+    background-color: rgba(0, 0, 0, 0.692);
+    /* margin-top: 20px; */
+}
+
+.navbar-logo {
+    width: 100px;
+    height: 50px;
+}
+
+.nav-link {
+    color: white;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+a.nav-link {
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}

@@ -1,24 +1,20 @@
 import React from 'react'
-import About from './About'
+import HeaderSec from '../components/HeaderSec'
+import About from '../components/About'
 import ContactSection from '../components/ContactSection'
+import BlogSec from '../components/blogSec'
+import Customcard from '../components/custom/Customcard'
+import TextSec from '../components/TextSec'
 
 export default function Home() {
-
-    const dividerStyle = {
-        borderTop: '2px solid #fff',
-        margin: '0 25%',
-        width: '50%',
-
-    }
-
     return (
         <>
-
-            <hr style={dividerStyle} />
+            <HeaderSec />
             <About />
-            <hr style={dividerStyle} />
+            <BlogSec />
+            <Customcard />
+            <TextSec />
             <ContactSection />
-            <hr style={dividerStyle} />
         </>
     )
 }

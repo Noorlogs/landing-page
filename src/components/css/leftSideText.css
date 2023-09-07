@@ -1,0 +1,32 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.left-side-text {
+    /* position: fixed; */
+    left: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 200px;
+    margin-left: 50px;
+
+    /* fonts  */
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.left-side-text h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.left-side-text p {
+    font-size: 17px;
+    line-height: 1.5;
+}

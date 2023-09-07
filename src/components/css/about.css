@@ -1,6 +1,6 @@
 .about-section {
-    background-color: #20232a;
-    color: white;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
     padding: 60px 0;
 }
 
@@ -9,12 +9,12 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-left: 2px solid #ffbb66;
+    border-left: 2px solid #111111;
     margin-left: 7%;
 }
 
 .about-column {
-    flex-basis: calc(50% - 20px);
+    flex-basis: calc(50% - 50px);
     padding: 20px;
 }
 
@@ -34,18 +34,30 @@
 }
 
 .about-button {
-    border: 2px solid transparent;
-    background-color: transparent;
-    color: white;
+
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.about-button:hover {
-    border-color: #ffbb66;
-    background-color: #ffbb66;
+.btn-1 {
+    border: 2px solid transparent;
+    border-color: #020202;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #fff;
+}
+
+.btn-1:hover {
+    background-color: transparent;
+    color: rgb(2, 2, 2);
+    transform: scale(1.05);
+}
+
+.btn-2:hover {
+    border-color: #020202;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #ffffff;
     transform: scale(1.05);
 }
 
